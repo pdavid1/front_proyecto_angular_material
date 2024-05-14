@@ -26,11 +26,11 @@ git remote add origin (https://github.com/pdavid1/front_proyecto_angular.git)
 ...
 git add .
 git commit -m "Proyecto Angular"
-git push origin master
+git push origin main
 ...
 -----------------------------------------
 ### Para actualizar los nuevos cambios
 ...
-git pull origin master
+git pull origin main
 ... 
 
