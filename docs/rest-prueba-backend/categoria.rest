@@ -1,6 +1,6 @@
 GET https://lv.blumbit.net/back/public/api/categoria
 Accept: application/json
-Authorization: Bearer 80|gn7u1kTbSs3Zdi4eg49duOBEoJypewyz6qN3tM4jda693f6e
+Authorization: Bearer 90|Katj3r8GyTKQofYANPCOdz8MDeambRLtt9QSmZy1ccdadbe6
 
 ##
 

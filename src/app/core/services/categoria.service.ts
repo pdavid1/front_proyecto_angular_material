@@ -14,22 +14,22 @@ export class CategoriaService {
   constructor(private http: HttpClient) { }
 
   listarCategorias(){
-    return this.http.get(`${this.urlBase}/categoria`,{ headers: {authorization: 'Bearer 80|gn7u1kTbSs3Zdi4eg49duOBEoJypewyz6qN3tM4jda693f6e'}})
+    return this.http.get(`${this.urlBase}/categoria`)
   }
 
   guardarCategoria(datos: any){
-    return this.http.post(`${this.urlBase}/categoria`, datos, { headers: {authorization: 'Bearer 80|gn7u1kTbSs3Zdi4eg49duOBEoJypewyz6qN3tM4jda693f6e'}})
+    return this.http.post(`${this.urlBase}/categoria`, datos)
   }
 
   mostrarCategorias(id: number){
-    return this.http.get(`${this.urlBase}/categoria${id}`)
+    return this.http.get(`${this.urlBase}/categoria/${id}`)
   }
 
   modificarCategoria(id: number, datos: any){
-    return this.http.put(`${this.urlBase}/categoria${id}`, datos)
+    return this.http.put(`${this.urlBase}/categoria/${id}`, datos)
   }
 
   eliminarCategoria(id: number){
-    return this.http.delete(`${this.urlBase}/categoria${id}`)
+    return this.http.delete(`${this.urlBase}/categoria/${id}`)
   }
 }
