@@ -1,0 +1,29 @@
+GET https://lv.blumbit.net/back/public/api/categoria
+Accept: application/json
+Authorization: Bearer 80|gn7u1kTbSs3Zdi4eg49duOBEoJypewyz6qN3tM4jda693f6e
+
+##
+
+
+POST https://lv.blumbit.net/back/public/api/categoria
+Accept: application/json
+Content-Type: application/json
+Authorization: Bearer 76|QopHpBiO9dxP7YxBBaDETVECigqJ5fQZ5d6qEMlpb0bd842c
+
+{
+  "nombre": "DISOLVENTES",
+  "detalle": "Prueba desde Angular"
+}
+
+##
+
+
+PUT https://lv.blumbit.net/back/public/api/categoria/15
+Accept: application/json
+Content-Type: application/json
+Authorization: Bearer 76|QopHpBiO9dxP7YxBBaDETVECigqJ5fQZ5d6qEMlpb0bd842c
+
+{
+  "nombre": "DISOLBENTES",
+  "detalle": "Prueba desde Angular Modificado"
+}
