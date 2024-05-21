@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CategoriaService } from './services/categoria.service';
+import { AuthService } from './services/auth.service';
 
 
 
@@ -10,7 +11,8 @@ import { CategoriaService } from './services/categoria.service';
     CommonModule
   ],
   providers: [
-    CategoriaService
+    CategoriaService,
+    AuthService
   ]
 })
 export class CoreModule { }
